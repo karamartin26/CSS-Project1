@@ -1,0 +1,70 @@
+/* Global */
+html {
+    background: black;
+    color: red;
+    font-family: 'Martel', serif;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+h1, h2 {
+    color: white;
+}
+h1 {
+    font-weight: 500;
+}
+h2 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+body {
+    margin: auto 50px;
+}
+section {
+    margin-bottom: 10px;
+}
+/* Header */
+header {
+    text-align: center;
+}
+#round {
+    border-radius: 50%;
+}
+.inscription {
+    font-family: 'Great Vibes', cursive;
+    line-height: .5rem;
+    font-size: 1.25em;
+}
+/* Origin */
+.floatleft {
+    float: left;
+    margin-right: 10px;
+}
+/* Effects */
+.col-left {
+    width: 50%;
+    float: left;
+    min-height: 200px;
+    color: blue;
+}
+.col-right {
+    width: 50%;
+    min-height: 200px;
+    float: left;
+}
+/* Footer */
+footer {
+    color: white;
+    font-size: .75em;
+}
+a {
+    color: red;
+}
+a:hover {
+    color: white;
+}
+a:visited {
+    color: blue;
+}
